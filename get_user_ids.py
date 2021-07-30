@@ -42,7 +42,7 @@ def get_user_ids_u(user_list):
         user1 = user_list[0]
         user2 = user_list[1]
         print(user1, user2)
-        bearer_token = 'AAAAAAAAAAAAAAAAAAAAAL12QwEAAAAAi%2F2q4SCp9SLXl%2F%2FN%2FSlMFhTjvQY%3DWokVtm4j6QcHbVgQzKe3jFI2qw7YI9x7SLqWGXvSaap20kKdkR'
+        bearer_token = '{YOUR BEARER TOKEN}'
         url = create_url_u(user1, user2)
         headers = create_headers_u(bearer_token)
         user_ids = []
